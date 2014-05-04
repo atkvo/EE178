@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "testbench_v_behav" --prj "/home/andrew/vivadoprojects/lab7/lab7.sim/sim_1/behav/testbench_v.prj" "work.testbench_v" "work.glbl" 

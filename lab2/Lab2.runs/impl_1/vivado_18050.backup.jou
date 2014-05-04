@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:26:26 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Sun Feb 16 14:36:58 2014
+# Process ID: 17927
+# Log file: /home/andrew/Documents/xilinx_projects/Lab2/Lab2.runs/impl_1/lab2.rdi
+# Journal file: /home/andrew/Documents/xilinx_projects/Lab2/Lab2.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source lab2.tcl -notrace

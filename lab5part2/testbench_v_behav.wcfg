@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_v_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_v" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/testbench_v/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/in1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/in2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/in3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in3[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/in4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in4[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/in5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in5[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/out1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/out2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out2[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/out3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out3[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/out4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out4[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/out5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out5[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

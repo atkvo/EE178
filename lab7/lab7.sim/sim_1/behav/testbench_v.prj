@@ -1,0 +1,5 @@
+verilog work  "/home/andrew/vivadoprojects/lab7/lab7.srcs/sources_1/imports/software/software.v"
+verilog work  "/home/andrew/vivadoprojects/lab7/lab7.srcs/sources_1/imports/lab7files/kcpsm6.v"
+verilog work  "/home/andrew/vivadoprojects/lab7/lab7.srcs/sources_1/imports/lab7files/tutorial.v"
+verilog work  "/home/andrew/vivadoprojects/lab7/lab7.srcs/sim_1/imports/lab7files/testbench.v"
+verilog work "/opt/Xilinx/Vivado/2013.4/data/verilog/src/glbl.v"

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_v_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_v" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/testbench_v/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/speaker" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">speaker</obj_property>
+      <obj_property name="ObjectShortName">speaker</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/vcc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vcc</obj_property>
+      <obj_property name="ObjectShortName">vcc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/my_narrator/chatter_inst/fsm_inst/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/my_narrator/chatter_inst/fsm_inst/data_arrived" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_arrived</obj_property>
+      <obj_property name="ObjectShortName">data_arrived</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/my_narrator/chatter_inst/fsm_inst/load_ptrs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">load_ptrs</obj_property>
+      <obj_property name="ObjectShortName">load_ptrs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/my_narrator/chatter_inst/fsm_inst/increment" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">increment</obj_property>
+      <obj_property name="ObjectShortName">increment</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/my_narrator/chatter_inst/fsm_inst/val_match" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">val_match</obj_property>
+      <obj_property name="ObjectShortName">val_match</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/my_narrator/chatter_inst/fsm_inst/period_expired" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">period_expired</obj_property>
+      <obj_property name="ObjectShortName">period_expired</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/my_narrator/chatter_inst/fsm_inst/sample_capture" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sample_capture</obj_property>
+      <obj_property name="ObjectShortName">sample_capture</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/my_narrator/chatter_inst/fsm_inst/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/my_narrator/chatter_inst/fsm_inst/next_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/my_narrator/chatter_inst/fsm_inst/count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/my_narrator/chatter_inst/rom_vo/addra" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addra[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/my_narrator/chatter_inst/rom_vo/douta" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">douta[7:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[7:0]</obj_property>
+   </wvobject>
+</wave_config>

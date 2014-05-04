@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:26:26 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Wed Mar 12 18:12:31 2014
+# Process ID: 1867
+# Log file: /home/andrew/Documents/xilinx_projects/lab4/lab4.runs/impl_1/piano.rdi
+# Journal file: /home/andrew/Documents/xilinx_projects/lab4/lab4.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source piano.tcl -notrace

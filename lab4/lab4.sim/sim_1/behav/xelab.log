@@ -1,0 +1,22 @@
+Vivado Simulator 2013.4
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2013.4/bin/unwrapped/lnx64.o/xelab --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_v_behav --prj /home/andrew/Documents/xilinx_projects/lab4/lab4.sim/sim_1/behav/testbench_v.prj work.testbench_v work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "/home/andrew/Documents/xilinx_projects/lab4/lab4.srcs/sources_1/new/piano.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "/home/andrew/Documents/xilinx_projects/lab4/lab4.srcs/sim_1/new/testbench.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "/opt/Xilinx/Vivado/2013.4/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/home/andrew/Documents/xilinx_projects/lab4/lab4.srcs/sources_1/new/piano.v" Line 21. Module piano has a timescale but atleast one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/opt/Xilinx/Vivado/2013.4/data/verilog/src/glbl.v" Line 6. Module glbl has a timescale but atleast one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/andrew/Documents/xilinx_projects/lab4/lab4.srcs/sources_1/new/piano.v" Line 21. Module piano has a timescale but atleast one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/opt/Xilinx/Vivado/2013.4/data/verilog/src/glbl.v" Line 6. Module glbl has a timescale but atleast one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.piano
+Compiling module work.testbench_v
+Compiling module work.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot testbench_v_behav

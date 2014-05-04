@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_v_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_v" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/testbench_v/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/tutorial_inst/leds" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">leds[15:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/switches" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">switches[15:0]</obj_property>
+      <obj_property name="ObjectShortName">switches[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/tutorial_inst/kcpsm6_inst/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[11:0]</obj_property>
+      <obj_property name="ObjectShortName">address[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/tutorial_inst/kcpsm6_inst/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[17:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/tutorial_inst/kcpsm6_inst/bram_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bram_enable</obj_property>
+      <obj_property name="ObjectShortName">bram_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/tutorial_inst/kcpsm6_inst/in_port" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_port[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_port[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/tutorial_inst/kcpsm6_inst/out_port" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_port[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_port[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/tutorial_inst/kcpsm6_inst/port_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">port_id[7:0]</obj_property>
+      <obj_property name="ObjectShortName">port_id[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/tutorial_inst/kcpsm6_inst/write_strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_strobe</obj_property>
+      <obj_property name="ObjectShortName">write_strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/tutorial_inst/kcpsm6_inst/k_write_strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">k_write_strobe</obj_property>
+      <obj_property name="ObjectShortName">k_write_strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/tutorial_inst/kcpsm6_inst/read_strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_strobe</obj_property>
+      <obj_property name="ObjectShortName">read_strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/tutorial_inst/kcpsm6_inst/kcpsm6_opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">kcpsm6_opcode[1:152]</obj_property>
+      <obj_property name="ObjectShortName">kcpsm6_opcode[1:152]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_v/tutorial_inst/kcpsm6_inst/kcpsm6_status" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">kcpsm6_status[1:128]</obj_property>
+      <obj_property name="ObjectShortName">kcpsm6_status[1:128]</obj_property>
+   </wvobject>
+</wave_config>

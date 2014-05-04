@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:26:26 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Sat Apr 12 15:45:31 2014
+# Process ID: 11026
+# Log file: /home/andrew/vivadoprojects/lab6/lab6.runs/synth_1/narrator.rds
+# Journal file: /home/andrew/vivadoprojects/lab6/lab6.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source narrator.tcl

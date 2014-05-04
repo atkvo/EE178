@@ -1,0 +1,55 @@
+
+H
+Command: %s
+53*	vivadotcl2 
+route_design2default:defaultZ4-113
+›
+@Attempting to get a license for feature '%s' and/or device '%s'
+308*common2"
+Implementation2default:default2
+xc7a100t2default:defaultZ17-347
+‹
+0Got license for feature '%s' and/or device '%s'
+310*common2"
+Implementation2default:default2
+xc7a100t2default:defaultZ17-349
+g
+,Running DRC as a precondition to command %s
+22*	vivadotcl2 
+route_design2default:defaultZ4-22
+G
+Running DRC with %s threads
+24*drc2
+42default:defaultZ23-27
+Y
+DRC finished with %s
+79*	vivadotcl2(
+0 Errors, 1 Warnings2default:defaultZ4-198
+\
+BPlease refer to the DRC report (report_drc) for more information.
+80*	vivadotclZ4-199
+M
+
+Starting %s Task
+103*constraints2
+Routing2default:defaultZ18-103
+p
+BMultithreading enabled for route_design using a maximum of %s CPUs97*route2
+42default:defaultZ35-254
+K
+
+Starting %s Task
+103*constraints2
+Route2default:defaultZ18-103
+g
+
+Phase %s%s
+101*constraints2
+1 2default:default2#
+Build RT Design2default:defaultZ18-101
+s
+
+Phase %s%s
+101*constraints2
+1.1 2default:default2-
+Build Netlist & NodeGraph2default:defaultZ18-101
