@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
 
-<Project Version="7" Minor="0" Path="/home/andrew/projects/EE178/lab7/lab7.xpr">
+<Project Version="7" Minor="0" Path="/home/andrew/projects/EE178/final_project/final_project.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="d862e510476c4a759c03d8f9ccad39f3"/>
+    <Option Name="Id" Val="dd1efd6349334d60a437e03430a5ecff"/>
     <Option Name="Part" Val="xc7a100tcsg324-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="BoardPart" Val=""/>
@@ -16,26 +16,26 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/software/software.v">
+      <File Path="$PSRCDIR/sources_1/imports/software/software.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/software/software.v"/>
+          <Attr Name="ImportTime" Val="1399181803"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/lab7files/kcpsm6.v">
+      <File Path="$PSRCDIR/sources_1/imports/software/kcpsm6.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../mnt/data/Dropbox/School/EE178/LAB7/lab7files/kcpsm6.v"/>
-          <Attr Name="ImportTime" Val="1397635956"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/software/kcpsm6.v"/>
+          <Attr Name="ImportTime" Val="1399181803"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/lab7files/tutorial.v">
+      <File Path="$PSRCDIR/sources_1/new/final_project.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../mnt/data/Dropbox/School/EE178/LAB7/lab7files/tutorial.v"/>
-          <Attr Name="ImportTime" Val="1397630438"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -43,64 +43,40 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="tutorial"/>
+        <Option Name="TopModule" Val="final_project"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PSRCDIR/constrs_1/imports/lab7files/tutorial.xdc">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../mnt/data/Dropbox/School/EE178/LAB7/lab7files/tutorial.xdc"/>
-          <Attr Name="ImportTime" Val="1397632324"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-        </FileInfo>
-      </File>
       <Config>
-        <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/lab7files/tutorial.xdc"/>
         <Option Name="ConstrsType" Val="XDC"/>
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sim_1/imports/lab7files/testbench.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../mnt/data/Dropbox/School/EE178/LAB7/lab7files/testbench.v"/>
-          <Attr Name="ImportTime" Val="1397634480"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/testbench_v_behav.wcfg">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="testbench_v"/>
+        <Option Name="TopModule" Val="final_project"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="SrcSet" Val="sources_1"/>
-        <Option Name="XSimWcfgFile" Val="$PPRDIR/testbench_v_behav.wcfg"/>
       </Config>
     </FileSet>
   </FileSets>
   <Runs Version="1" Minor="9">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2013">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
           <Desc>Vivado Synthesis Defaults</Desc>
         </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" SynthRun="synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2013">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
           <Desc>Vivado Implementation Defaults</Desc>
         </StratHandle>
         <Step Id="init_design"/>
@@ -110,10 +86,9 @@
         <Step Id="post_place_power_opt_design"/>
         <Step Id="phys_opt_design"/>
         <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
         <Step Id="write_bitstream"/>
       </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
   </Runs>
-  <HWSession Dir="hw_1" File="hw.xml"/>
 </Project>
