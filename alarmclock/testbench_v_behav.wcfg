@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_v_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_v" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="49" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/loopvar">
+      <obj_property name="ElementShortName">loopvar[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loopvar[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/s_incr">
+      <obj_property name="ElementShortName">s_incr</obj_property>
+      <obj_property name="ObjectShortName">s_incr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/m_incr">
+      <obj_property name="ElementShortName">m_incr</obj_property>
+      <obj_property name="ObjectShortName">m_incr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/main_inst/incr_hh_pulse">
+      <obj_property name="ElementShortName">incr_hh_pulse</obj_property>
+      <obj_property name="ObjectShortName">incr_hh_pulse</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/main_inst/incr_mm_pulse">
+      <obj_property name="ElementShortName">incr_mm_pulse</obj_property>
+      <obj_property name="ObjectShortName">incr_mm_pulse</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/main_inst/incr_ss_pulse">
+      <obj_property name="ElementShortName">incr_ss_pulse</obj_property>
+      <obj_property name="ObjectShortName">incr_ss_pulse</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/main_inst/timer_toggle_pulse">
+      <obj_property name="ElementShortName">timer_toggle_pulse</obj_property>
+      <obj_property name="ObjectShortName">timer_toggle_pulse</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/debounce_time">
+      <obj_property name="ElementShortName">debounce_time[19:0]</obj_property>
+      <obj_property name="ObjectShortName">debounce_time[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/debounce_tc">
+      <obj_property name="ElementShortName">debounce_tc[8:0]</obj_property>
+      <obj_property name="ObjectShortName">debounce_tc[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider106" type="divider">
+      <obj_property name="label">clock</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/main_inst/clock_inst/incr_hh">
+      <obj_property name="ElementShortName">incr_hh</obj_property>
+      <obj_property name="ObjectShortName">incr_hh</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/main_inst/clock_inst/incr_mm">
+      <obj_property name="ElementShortName">incr_mm</obj_property>
+      <obj_property name="ObjectShortName">incr_mm</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_inst/clock_hh">
+      <obj_property name="ElementShortName">clock_hh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">clock_hh[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_inst/clock_mm">
+      <obj_property name="ElementShortName">clock_mm[7:0]</obj_property>
+      <obj_property name="ObjectShortName">clock_mm[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_inst/clock_ss">
+      <obj_property name="ElementShortName">clock_ss[7:0]</obj_property>
+      <obj_property name="ObjectShortName">clock_ss[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/main_inst/clock_inst/pulse_hh">
+      <obj_property name="ElementShortName">pulse_hh</obj_property>
+      <obj_property name="ObjectShortName">pulse_hh</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/main_inst/clock_inst/pulse_mm">
+      <obj_property name="ElementShortName">pulse_mm</obj_property>
+      <obj_property name="ObjectShortName">pulse_mm</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/main_inst/clock_inst/pulse_ss">
+      <obj_property name="ElementShortName">pulse_ss</obj_property>
+      <obj_property name="ObjectShortName">pulse_ss</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/testbench_v/main_inst/clock_inst/tc_seconds">
+      <obj_property name="ElementShortName">tc_seconds</obj_property>
+      <obj_property name="ObjectShortName">tc_seconds</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_inst/ctr">
+      <obj_property name="ElementShortName">ctr[26:0]</obj_property>
+      <obj_property name="ObjectShortName">ctr[26:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider67" type="divider">
+      <obj_property name="label">controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_controller/sen">
+      <obj_property name="ElementShortName">sen[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sen[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_controller/alarm_hh">
+      <obj_property name="ElementShortName">alarm_hh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alarm_hh[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_controller/alarm_mm">
+      <obj_property name="ElementShortName">alarm_mm[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alarm_mm[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_controller/timer_hh">
+      <obj_property name="ElementShortName">timer_hh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_hh[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_controller/timer_mm">
+      <obj_property name="ElementShortName">timer_mm[7:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_mm[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_controller/timer_ss">
+      <obj_property name="ElementShortName">timer_ss[7:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_ss[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider20" type="divider">
+      <obj_property name="label">display</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/mode">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/curr_hh">
+      <obj_property name="ElementShortName">curr_hh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_hh[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/curr_mm">
+      <obj_property name="ElementShortName">curr_mm[7:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_mm[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/curr_ss">
+      <obj_property name="ElementShortName">curr_ss[7:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_ss[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/alarm_hh">
+      <obj_property name="ElementShortName">alarm_hh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alarm_hh[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/alarm_mm">
+      <obj_property name="ElementShortName">alarm_mm[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alarm_mm[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/timer_hh">
+      <obj_property name="ElementShortName">timer_hh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_hh[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/timer_mm">
+      <obj_property name="ElementShortName">timer_mm[7:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_mm[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/timer_ss">
+      <obj_property name="ElementShortName">timer_ss[7:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_ss[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/val7">
+      <obj_property name="ElementShortName">val7[3:0]</obj_property>
+      <obj_property name="ObjectShortName">val7[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/val6">
+      <obj_property name="ElementShortName">val6[3:0]</obj_property>
+      <obj_property name="ObjectShortName">val6[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/val5">
+      <obj_property name="ElementShortName">val5[3:0]</obj_property>
+      <obj_property name="ObjectShortName">val5[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/val4">
+      <obj_property name="ElementShortName">val4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">val4[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/val3">
+      <obj_property name="ElementShortName">val3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">val3[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/val2">
+      <obj_property name="ElementShortName">val2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">val2[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/val1">
+      <obj_property name="ElementShortName">val1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">val1[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/val0">
+      <obj_property name="ElementShortName">val0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">val0[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/raw">
+      <obj_property name="ElementShortName">raw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">raw[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/numb">
+      <obj_property name="ElementShortName">numb[6:0]</obj_property>
+      <obj_property name="ObjectShortName">numb[6:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/testbench_v/main_inst/clock_display/counter">
+      <obj_property name="ElementShortName">counter[19:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[19:0]</obj_property>
+   </wvobject>
+</wave_config>

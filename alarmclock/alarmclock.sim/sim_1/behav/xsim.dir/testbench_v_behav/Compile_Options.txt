@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "testbench_v_behav" --prj "/home/andrew/projects/EE178/alarmclock/alarmclock.sim/sim_1/behav/testbench_v.prj" "xil_defaultlib.testbench_v" "xil_defaultlib.glbl" 

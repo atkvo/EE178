@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1400285049">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="main_source.vdi"/>
+  <File Type="BG-DRC" Name="main_source.drc"/>
+  <File Type="BG-BGN" Name="main_source.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="$PSDKDIR/SDK/SDK_Export/hw/main_source.sysdef"/>
+  <File Type="BITSTR-MMI" Name="main_source.mmi"/>
+  <File Type="BITSTR-BMM" Name="main_source_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="main_source.nky"/>
+  <File Type="BITSTR-RBT" Name="main_source.rbt"/>
+  <File Type="BITSTR-MSK" Name="main_source.msk"/>
+  <File Type="BG-BIN" Name="main_source.bin"/>
+  <File Type="BG-BIT" Name="main_source.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="main_source_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="main_source_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="main_source_postroute_physopt.dcp"/>
+  <File Type="ROUTE-SIMILARITY" Name="main_source_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="main_source_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="main_source_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="main_source_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="main_source_route_status.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="main_source_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="main_source_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="main_source_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="main_source_drc_routed.rpt"/>
+  <File Type="ROUTE-DCP" Name="main_source_routed.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="main_source_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="main_source_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="main_source_postplace_pwropt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="main_source_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="main_source_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="main_source_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="main_source_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="main_source_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="main_source_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="main_source_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="main_source_placed.dcp"/>
+  <File Type="PWROPT-DRC" Name="main_source_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="main_source_pwropt.dcp"/>
+  <File Type="OPT-DRC" Name="main_source_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="main_source_opt.dcp"/>
+  <File Type="PA-TCL" Name="main_source.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/alarmclock.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

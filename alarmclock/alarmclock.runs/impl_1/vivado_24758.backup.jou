@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:00:25 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Fri May 16 13:48:10 2014
+# Process ID: 24242
+# Log file: /home/andrew/projects/EE178/alarmclock/alarmclock.runs/impl_1/main_source.vdi
+# Journal file: /home/andrew/projects/EE178/alarmclock/alarmclock.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source main_source.tcl -notrace

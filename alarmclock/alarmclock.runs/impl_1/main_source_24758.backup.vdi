@@ -1,0 +1,654 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:00:25 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Fri May 16 13:48:10 2014
+# Process ID: 24242
+# Log file: /home/andrew/projects/EE178/alarmclock/alarmclock.runs/impl_1/main_source.vdi
+# Journal file: /home/andrew/projects/EE178/alarmclock/alarmclock.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source main_source.tcl -notrace
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.0 available at /opt/Xilinx/Vivado/2014.1/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:0.9 available at /opt/Xilinx/Vivado/2014.1/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at /opt/Xilinx/Vivado/2014.1/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at /opt/Xilinx/Vivado/2014.1/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+Loading clock regions from /opt/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from /opt/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from /opt/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/PinFunctions.xml...
+Loading package from /opt/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from /opt/Xilinx/Vivado/2014.1/data/./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ConfigModes.xml
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Parsing XDC File [/home/andrew/projects/EE178/alarmclock/alarmclock.srcs/constrs_1/new/alarmclock.xdc]
+Finished Parsing XDC File [/home/andrew/projects/EE178/alarmclock/alarmclock.srcs/constrs_1/new/alarmclock.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.12 . Memory (MB): peak = 977.480 ; gain = 6.008
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1f80a2497
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1364.926 ; gain = 387.445
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Opt 31-10] Eliminated 68 cells.
+Phase 2 Constant Propagation | Checksum: 1867cac06
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1364.926 ; gain = 387.445
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 224 unconnected nets.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_inst/timer_ss[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_inst/timer_ss[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 1d3694219
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1364.926 ; gain = 387.445
+Ending Logic Optimization Task | Checksum: 1d3694219
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1364.926 ; gain = 387.445
+Implement Debug Cores | Checksum: 1f80a2497
+Logic Optimization | Checksum: 1f80a2497
+
+Starting Power Optimization Task
+Ending Power Optimization Task | Checksum: 1d3694219
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1364.926 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 4 Warnings, 50 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1364.926 ; gain = 393.453
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1364.930 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command place_design
+INFO: [Drc 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Core
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1366.930 ; gain = 0.000
+
+Phase 1.1.1 Mandatory Logic Optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/Q[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_mm[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_controller/timer_ss[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_inst/timer_ss[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: clock_inst/timer_ss[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_hh[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_mm[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[0].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[1].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[2].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[3].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[4].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[5].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[6].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+CRITICAL WARNING: [Opt 31-80] Multi-driver net found in the design: timer_ss[7].
+Resolution: Please check the input design and ensure that the specific net has only one driver. Once the design is modified, then re-run the Vivado flow.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1366.930 ; gain = 0.000
+Phase 1.1.1 Mandatory Logic Optimization | Checksum: 31a7f603
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.04 . Memory (MB): peak = 1366.930 ; gain = 0.004
+
+Phase 1.1.2 Build Super Logic Region (SLR) Database
+Phase 1.1.2 Build Super Logic Region (SLR) Database | Checksum: 31a7f603
+
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1366.930 ; gain = 0.004
+
+Phase 1.1.3 Add Constraints
+Phase 1.1.3 Add Constraints | Checksum: 31a7f603
+
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1366.930 ; gain = 0.004
+
+Phase 1.1.4 Build Shapes/ HD Config
+
+Phase 1.1.4.1 Build Macros
+Phase 1.1.4.1 Build Macros | Checksum: 9d934c95
+
+Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1390.938 ; gain = 24.012
+Phase 1.1.4 Build Shapes/ HD Config | Checksum: 9d934c95
+
+Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1390.938 ; gain = 24.012
+
+Phase 1.1.5 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.5.1 Pre-Place Cells
+Phase 1.1.5.1 Pre-Place Cells | Checksum: 31a7f603
+
+Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.14 . Memory (MB): peak = 1390.938 ; gain = 24.012
+
+Phase 1.1.5.2 Implementation Feasibility check
+Phase 1.1.5.2 Implementation Feasibility check | Checksum: 31a7f603
+
+Time (s): cpu = 00:00:00.47 ; elapsed = 00:00:00.25 . Memory (MB): peak = 1390.938 ; gain = 24.012
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.5.3 Implementation Feasibility check On IDelay
+Phase 1.1.5.3 Implementation Feasibility check On IDelay | Checksum: 31a7f603
+
+Time (s): cpu = 00:00:00.84 ; elapsed = 00:00:00.63 . Memory (MB): peak = 1390.938 ; gain = 24.012
+Phase 1.1.5 IO Placement/ Clock Placement/ Build Placer Device | Checksum: dd5737cd
+
+Time (s): cpu = 00:00:00.84 ; elapsed = 00:00:00.63 . Memory (MB): peak = 1390.938 ; gain = 24.012
+
+Phase 1.1.6 Build Placer Netlist Model
+
+Phase 1.1.6.1 Place Init Design
+
+Phase 1.1.6.1.1 Build Clock Data
+Phase 1.1.6.1.1 Build Clock Data | Checksum: 1c55f299c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1392.938 ; gain = 26.012
+Phase 1.1.6.1 Place Init Design | Checksum: 1afe71591
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1392.938 ; gain = 26.012
+Phase 1.1.6 Build Placer Netlist Model | Checksum: 1afe71591
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1392.938 ; gain = 26.012
+
+Phase 1.1.7 Constrain Clocks/Macros
+
+Phase 1.1.7.1 Constrain Global/Regional Clocks
+Phase 1.1.7.1 Constrain Global/Regional Clocks | Checksum: 1afe71591
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1392.938 ; gain = 26.012
+Phase 1.1.7 Constrain Clocks/Macros | Checksum: 1afe71591
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1392.938 ; gain = 26.012
+Phase 1.1 Placer Initialization Core | Checksum: 1afe71591
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1392.938 ; gain = 26.012
+Phase 1 Placer Initialization | Checksum: 1afe71591
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1392.938 ; gain = 26.012
+
+Phase 2 Global Placement
+
+Phase 2.1 Run Budgeter
+Phase 2.1 Run Budgeter | Checksum: 11be5f8bc
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1394.938 ; gain = 28.012
+Phase 2 Global Placement | Checksum: ed9941ac
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1397.938 ; gain = 31.012
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: ed9941ac
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1397.938 ; gain = 31.012
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 190aa6b6c
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1398.938 ; gain = 32.012
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 22780f6a3
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1398.938 ; gain = 32.012
+
+Phase 3.4 Timing Path Optimizer
+Phase 3.4 Timing Path Optimizer | Checksum: 1930f143c
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1398.938 ; gain = 32.012
+
+Phase 3.5 Commit Small Macros & Core Logic
+Phase 3.5 Commit Small Macros & Core Logic | Checksum: 201bfefcf
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1432.129 ; gain = 65.203
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 201bfefcf
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1432.129 ; gain = 65.203
+Phase 3 Detail Placement | Checksum: 201bfefcf
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1432.129 ; gain = 65.203
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 PCOPT Shape updates
+Phase 4.1 PCOPT Shape updates | Checksum: 2896ed7d4
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1432.129 ; gain = 65.203
+
+Phase 4.2 Post Placement Optimization
+
+Phase 4.2.1 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=5.311. For the most accurate timing information please run report_timing.
+Phase 4.2.1 Post Placement Timing Optimization | Checksum: 2a5c77486
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1440.137 ; gain = 73.211
+Phase 4.2 Post Placement Optimization | Checksum: 2a5c77486
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1440.137 ; gain = 73.211
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 2a5c77486
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1440.137 ; gain = 73.211
+
+Phase 4.4 Placer Reporting
+
+Phase 4.4.1 Restore STA
+Phase 4.4.1 Restore STA | Checksum: 2a5c77486
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1440.137 ; gain = 73.211
+Phase 4.4 Placer Reporting | Checksum: 2a5c77486
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1440.137 ; gain = 73.211
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 2c6eda99f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1440.137 ; gain = 73.211
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2c6eda99f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1440.137 ; gain = 73.211
+Ending Placer Task | Checksum: 1cb1527e7
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1440.137 ; gain = 73.211
+INFO: [Common 17-83] Releasing license: Implementation
+30 Infos, 4 Warnings, 100 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.11 . Memory (MB): peak = 1440.141 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1440.141 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [Drc 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
+
+Starting Route Task
+
+Phase 1 Build RT Design
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_mm[3] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_mm[1] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_mm[6] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_mm[5] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_mm[4] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_mm[2] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_mm[7] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_mm[0] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/Q[0] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/Q[1] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/Q[2] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/Q[3] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/Q[5] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/Q[4] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/Q[7] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/Q[6] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_ss[3] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_ss[1] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_ss[0] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_ss[2] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_ss[4] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_ss[5] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_ss[6] detected. Design will not pass DRC check. Router will ignore one driver
+CRITICAL WARNING: [Route 35-14] Multi-driver net clock_controller/timer_ss[7] detected. Design will not pass DRC check. Router will ignore one driver
+Phase 1 Build RT Design | Checksum: fa7c259a
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 1586.699 ; gain = 134.562
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: fa7c259a
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 1586.703 ; gain = 134.566
+ Number of Nodes with overlaps = 0
+
+Phase 2.2 Update Timing
+Phase 2.2 Update Timing | Checksum: 15f7dd57f
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.34   | TNS=0      | WHS=-0.146 | THS=-4.01  |
+
+Phase 2 Router Initialization | Checksum: 15f7dd57f
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: b48626c7
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 88
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 170731dce
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.01   | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 170731dce
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+Phase 4 Rip-up And Reroute | Checksum: 170731dce
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+
+Phase 5 Delay CleanUp
+
+Phase 5.1 Update Timing
+Phase 5.1 Update Timing | Checksum: 170731dce
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.11   | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 5 Delay CleanUp | Checksum: 170731dce
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+
+Phase 6 Clock Skew Optimization
+Phase 6 Clock Skew Optimization | Checksum: 170731dce
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Update Timing
+Phase 7.1 Update Timing | Checksum: 170731dce
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.11   | TNS=0      | WHS=0.145  | THS=0      |
+
+Phase 7 Post Hold Fix | Checksum: 170731dce
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0604082 %
+  Global Horizontal Routing Utilization  = 0.0718954 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 170731dce
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 170731dce
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 12745a61a
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1605.965 ; gain = 153.828
+
+Phase 11 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.11   | TNS=0      | WHS=0.145  | THS=0      |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 11 Post Router Timing | Checksum: 12745a61a
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 1605.965 ; gain = 153.828
+INFO: [Route 35-16] Router Completed Successfully
+Ending Route Task | Checksum: 12745a61a
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 1605.965 ; gain = 153.828
+
+Routing Is Done.
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 1606.129 ; gain = 153.992
+INFO: [Common 17-83] Releasing license: Implementation
+43 Infos, 4 Warnings, 124 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 1606.129 ; gain = 165.988
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.14 . Memory (MB): peak = 1606.129 ; gain = 0.000
+INFO: [Drc 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/andrew/projects/EE178/alarmclock/alarmclock.runs/impl_1/main_source_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Constraints type: SDC.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Common 17-206] Exiting Vivado at Fri May 16 13:48:53 2014...
